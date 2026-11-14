@@ -31,6 +31,3 @@ updates:
     versioning-strategy: "lockfile-only"
     allow:
       - dependency-type: "all"
-    ignore:
-      # vLLM upgrades require coordinated CUDA/PyTorch review.
-      - dependency-name: "vllm"
